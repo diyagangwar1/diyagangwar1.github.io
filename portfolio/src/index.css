@@ -1,0 +1,19 @@
+:root {
+
+}
+
+body, html {
+  cursor: none;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #000;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,30 @@
+.scrollprojects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
+    width: 100vw;
+    background: #000000; /* matches the off-white bg in screenshot */
+    text-align: center;
+    
+  }
+  
+  .scrollprojects-text {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #ffffffab;
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+    font-family: 'Georgia', 'Playfair Display', serif;
+    font-style: italic;
+  }
+  
+  .projects {
+    font-size: 4.5vw; /* responsive, or use 6rem for fixed */
+    font-weight: 900;
+    color: #ffffffda;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    line-height: 1;
+  }
