@@ -1,0 +1,40 @@
+{
+  "hash": "29373da7",
+  "configHash": "4e308a5e",
+  "lockfileHash": "af8fca88",
+  "browserHash": "80ea0de0",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "0e02091f",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "a5f0a61f",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "06af40a8",
+      "needsInterop": false
+    },
+    "react-slick": {
+      "src": "../../node_modules/react-slick/lib/index.js",
+      "file": "react-slick.js",
+      "fileHash": "d528e733",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-ELNDXDY2": {
+      "file": "chunk-ELNDXDY2.js"
+    },
+    "chunk-UCCAB3TN": {
+      "file": "chunk-UCCAB3TN.js"
+    }
+  }
+}
