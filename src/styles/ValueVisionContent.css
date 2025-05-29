@@ -270,3 +270,24 @@
     width: 100%;
   }
   
+  .code-block {
+    overflow-x: auto;
+    max-width: 100%;
+    box-sizing: border-box;
+    word-break: break-all;
+  }
+  
+  .code-block pre {
+    white-space: pre-wrap;
+    word-break: break-all;
+  }
+  
+  .grid-row {
+    min-width: 0;
+  }
+  
+  .grid-item {
+    min-width: 0;
+    word-break: break-word;
+  }
+  

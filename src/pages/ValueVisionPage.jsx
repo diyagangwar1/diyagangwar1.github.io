@@ -3,6 +3,7 @@ import ValueVisionHero from '../components/valuevisionpage/ValueVisionHero';
 import ValueVisionContent from '../components/valuevisionpage/ValueVisionContent';
 import '../styles/ValueVisionPage.css';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 const ValueVisionPage = () => {
     const valueVisionPageRef = useRef(null);
@@ -13,6 +14,7 @@ const ValueVisionPage = () => {
                 <Navbar />
                 <ValueVisionHero />
                 <ValueVisionContent />
+                <Footer />
             </div>
         </Fragment>
     );

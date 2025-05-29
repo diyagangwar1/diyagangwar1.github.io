@@ -17,7 +17,7 @@ const ValueVision = () => {
             </div>
             <div className="project_desc">
                 <h2>ValueVision</h2>
-                <p>Multimodal ML model for predicting real estate prices</p>
+                <p>Multimodal Property Valuation with Machine Learning</p>
             </div>
         </Link>
     </Fragment>

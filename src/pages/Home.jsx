@@ -12,7 +12,7 @@ import Carousel from '../components/about/more_about'
 import Experience from '../components/about/Experience'
 import Skills from '../components/about/TechnicalSkills'
 import About_Main from '../components/about/About_main'
-
+import Footer from '../components/Footer'
 const DESKTOP_MIN_WIDTH = 0.6 * 1440; // 60% of a typical desktop width (1440px)
 
 const Home = () => {
@@ -68,8 +68,12 @@ const Home = () => {
     <Fragment>
       <Navbar onWorkClick={handleWorkClick} />
       <div className='home'>
-        <Hero />
-        <ScrollProjects ref={firstProjectRef} id='first_project' />
+        <div style={{ position: 'relative', width: '100vw', height: '100vh', overflow: 'hidden' }}>
+          <Hero />
+        </div>
+        <div id='first_project'>
+          <ScrollProjects />
+        </div>
         <TinyML />
         <ValueVision />
         <Dell />
@@ -79,6 +83,7 @@ const Home = () => {
         <About />
         <Experience />
         <Carousel />
+        <Footer />
       </div>
     </Fragment>
   )

@@ -15,7 +15,7 @@ const experiences = [
     logo: dimfund,
   },
   {
-    title: 'Security Intern',
+    title: 'Security Automation Intern',
     company: 'Dell Technologies',
     years: 'Summer 2024',
     logo: dell,
@@ -46,14 +46,11 @@ const experiences = [
   },
 ];
 
-
-
-
 const Experience = () => {
   const [hoverIndex, setHoverIndex] = useState(null);
 
   return (
-    <div className='experience'>
+    <div className='experience' id='experience'>
       <div className='experience_title'>
         <p>my past adventures ...</p>
       </div>
@@ -61,7 +58,6 @@ const Experience = () => {
       <div className='experience_rows'>
         <div className='experience_header'>
           <span className='header_logo'></span>
-
         </div>
         {experiences.map((exp, index) => (
           <div

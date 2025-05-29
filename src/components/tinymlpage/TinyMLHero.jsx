@@ -9,9 +9,7 @@ const TinyMLHero = () => {
             <div className='tinyml-hero-desc'>
                 Solar-powered face detection on ultra-low-power edge devices, enabling sustainable IoT applications in resource-constrained environments
             </div>
-            <div className='tinyml-hero-image'>
-                <img src={tinyMLImg} alt="TinyML Project" />
-            </div>
+            {/* Image removed */}
         </div>
     );
 };

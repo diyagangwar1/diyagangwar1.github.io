@@ -2,44 +2,245 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2.5rem;
-  padding: 2.5rem 1rem;
-  height: 40vh;
-  margin-top: 10vh;
+  gap: 4rem;
+  padding: 4rem 2rem;
+  width: 70vw;
+  height: 80vh;
+  margin-top: 5vh;
 }
 
 .about_main_left {
   flex: 1 1 0;
-  max-width: 600px;
+  max-width: 800px;
+  font-size: 1.1rem;
+  font-weight: 200;
+}
+
+.about_main_left h1, .about_main_left h3 {
+  font-size: 2.7rem;
+}
+
+.about_main_left h2 {
+  font-family: "Georgia", serif !important;
+  font-style: italic !important;
+  font-size: 2.4rem;
+  font-weight: 200;
+
 }
 
 .about_main_right {
-  flex: 0 0 280px;
+  flex: 0 0 300px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .about_main_img {
-  width: 260px;
+  width: 380px;
   height: auto;
-  border-radius: 18px;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+  border-radius: 24px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.16);
   object-fit: cover;
+}
+
+.about_main_img_large {
+  width: 480px;
+  max-width: 80vw;
+  height: auto;
+  border-radius: 32px;
+  box-shadow: 0 6px 40px rgba(0,0,0,0.18);
+}
+
+.about_main_below {
+  display: flex;
+  gap: 3rem;
+  margin-top: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.about_main_below_col {
+  flex: 1 1 320px;
+  min-width: 260px;
+}
+
+.about_main_section {
+  margin-bottom: 2.2rem;
+}
+
+.about_main_section h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1.1rem;
+  color: #fff;
+}
+
+.about_main_exp_item {
+  margin-bottom: 0.7rem;
+}
+
+.about_main_exp_title {
+  font-weight: 500;
+  font-size: 1.08rem;
+  color: #fff;
+}
+
+.about_main_exp_company {
+  font-size: 1.02rem;
+  color: #aaa;
+}
+
+.about_main_more_link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #8ecfff;
+  font-size: 1.02rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.about_main_more_link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.about_main_skills_grid {
+  display: flex;
+  gap: 0.7rem;
+  margin-top: 0.5rem;
+}
+
+.about_main_skill_square {
+  width: 48px;
+  height: 48px;
+  background: #222;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+  color: #aaa;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  transition: background 0.2s, color 0.2s;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+.about_main_skill_square.about_main_more_link {
+  background: #333;
+  color: #8ecfff;
+  font-weight: 500;
+}
+.about_main_skill_square.about_main_more_link:hover {
+  background: #444;
+  color: #fff;
+}
+
+.about_main_edu_school {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 0.3rem;
+}
+.about_main_edu_degree {
+  font-size: 1.05rem;
+  color: #aaa;
+  margin-bottom: 0.2rem;
+}
+.about_main_edu_minor {
+  font-size: 1.01rem;
+  color: #aaa;
+}
+
+.about_main_cards_row {
+  display: flex;
+  gap: 2.5rem;
+  margin-top: 2.5rem;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.about_main_card_col {
+  min-width: 220px;
+  max-width: 340px;
+  flex: 1 1 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+.about_main_card_title {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #aaa;
+  margin-bottom: 1.1rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.about_main_card_text {
+  font-size: 1.13rem;
+  color: #fff;
+  font-weight: 400;
+}
+
+.about_main_see_more {
+  display: inline-block;
+  margin-top: 0.7rem;
+  color: #8ecfff;
+  font-size: 1.01rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.about_main_see_more:hover {
+  color: #fff;
+  text-decoration: underline;
 }
 
 @media (max-width: 900px) {
   .about_main_container {
     flex-direction: column;
-    gap: 1.5rem;
-    padding: 1.5rem 0.5rem;
+    gap: 2rem;
+    padding: 2rem 0.5rem;
+    height: auto;
   }
   .about_main_left, .about_main_right {
     max-width: 100%;
     flex: unset;
+    font-size: 1.1rem;
   }
   .about_main_img {
-    width: 80vw;
-    max-width: 320px;
+    width: 90vw;
+    max-width: 400px;
   }
+  .about_main_img_large {
+    width: 90vw;
+    max-width: 400px;
+  }
+  .about_main_below {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .about_main_below_col {
+    min-width: 0;
+    width: 100%;
+  }
+  .about_main_cards_row {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  .about_main_card_col {
+    max-width: 100%;
+    min-width: 0;
+    width: 100%;
+    align-items: flex-start;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
 }

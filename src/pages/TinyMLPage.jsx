@@ -3,6 +3,7 @@ import TinyMLHero from '../components/tinymlpage/TinyMLHero';
 import TinyMLContent from '../components/tinymlpage/TinyMLContent';
 import '../styles/TinyMLPage.css';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 const TinyMLPage = () => {
     const tinyMLPageRef = useRef(null);
@@ -13,6 +14,7 @@ const TinyMLPage = () => {
                 <Navbar />
                 <TinyMLHero />
                 <TinyMLContent />
+                <Footer />
             </div>
         </Fragment>
     );

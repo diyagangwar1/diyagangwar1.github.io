@@ -17,7 +17,7 @@ const Dell = () => {
             </div>
             <div className="project_desc">
                 <h2>Security Automation at Dell Technologies</h2>
-                <p>AI assistant for internal security compliance and workflow ops</p>
+                <p>LLM-Powered Security Automation for Compliance Ops</p>
             </div>
         </Link>
     </Fragment>

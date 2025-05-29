@@ -7,7 +7,7 @@ const ValueVisionHero = () => {
         <div className='valuevision-hero'>
             <div className='valuevision-hero-title'>ValueVision</div>
             <div className='valuevision-hero-desc'>
-                A platform that helps investors make data-driven decisions by analyzing company values and ESG metrics
+            Multimodal Property Valuation with Machine Learning: Text, Vision, and Structured Data Fusion
             </div>
             <div className='valuevision-hero-image'>
                 <img src="/valuevision-hero.png" alt="ValueVision Platform" />

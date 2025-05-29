@@ -21,7 +21,7 @@
   }
   
   .projects {
-    font-size: 4.5vw; /* responsive, or use 6rem for fixed */
+    font-size: 4vw; /* responsive, or use 6rem for fixed */
     font-weight: 900;
     color: #ffffffda;
     letter-spacing: 0.02em;
