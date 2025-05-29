@@ -21,10 +21,10 @@
 //   );
 // }
 
-import NeuralTerrainHero from './hero/NeuralTerrainHero';
+
 import React from "react";
 import "../styles/Hero.css";
-import MinimalExample from './hero/MinimalExample';
+
 import FullWidthNeuralTerrainHero from './hero/FullWidthNeuralTerrianHero';
 
 export default function Hero() {
