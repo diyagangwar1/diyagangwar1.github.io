@@ -21,7 +21,6 @@
 //   );
 // }
 
-
 import React from "react";
 import "../styles/Hero.css";
 import FullWidthNeuralTerrainHero from './hero/FullWidthNeuralTerrianHero';
@@ -29,7 +28,6 @@ import FullWidthNeuralTerrainHero from './hero/FullWidthNeuralTerrianHero';
 export default function Hero() {
   return (
     <div className="home-page">
-
       {/* Rest of your homepage content */}
     </div>
   );
