@@ -5,7 +5,7 @@ import glsl from 'vite-plugin-glsl'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), glsl()],
-  base: '/diyagangwar1.github.io/',
+  base: '/',
   assetsInclude: ['**/*.JPG', '**/*.jpg', '**/*.png', '**/*.gif', '**/*.webp', '**/*.svg'],
   server: {
     hmr: {
