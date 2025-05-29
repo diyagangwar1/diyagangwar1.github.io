@@ -15,6 +15,7 @@ const Footer = () => {
             <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
             <li><a href="mailto:your.email@example.com">Email</a></li>
             <li><a href="https://318543188562259968.hello.cv" target="_blank" rel="noopener noreferrer">Hello.CV</a></li>
+            <li><a href="https://github.com/diyagangwar1" target="_blank" rel="noopener noreferrer">GitHub</a></li>
           </ul>
         </div>
         {/* Column 2: Projects */}
