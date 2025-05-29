@@ -21,16 +21,15 @@
 //   );
 // }
 
-import NeuralTerrainHero from './hero/NeuralTerrainHero';
+
 import React from "react";
 import "../styles/Hero.css";
-import MinimalExample from './hero/MinimalExample';
 import FullWidthNeuralTerrainHero from './hero/FullWidthNeuralTerrianHero';
 
 export default function Hero() {
   return (
     <div className="home-page">
-      {/* <NeuralTerrainHero /> */}
+
       {/* Rest of your homepage content */}
     </div>
   );
