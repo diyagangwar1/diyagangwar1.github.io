@@ -70,3 +70,7 @@ src/assets/images/carousel/travel.JPG
 src/assets/images/carousel/art.JPG
 src/assets/images/follower/*.JPG
 src/assets/images/follower/*.jpg
+
+# Vite dependencies
+.vite/
+.vite/deps/
