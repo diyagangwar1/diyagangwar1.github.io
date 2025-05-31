@@ -15,7 +15,7 @@ const experiences = [
     logo: dimfund,
   },
   {
-    title: 'Security Automation Intern',
+    title: 'AI/ML Intern - Internal Complicance',
     company: 'Dell Technologies',
     years: 'Summer 2024',
     logo: dell,

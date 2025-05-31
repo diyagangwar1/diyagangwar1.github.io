@@ -13,6 +13,8 @@ const DotCursor = () => {
   const dotRef = useRef(null);
 
   useEffect(() => {
+    // Hide the default cursor
+    document.body.style.cursor = 'none';
     const moveDot = (e) => {
       if (dotRef.current) {
         dotRef.current.style.left = `${e.clientX}px`;
@@ -38,7 +40,11 @@ const DotCursor = () => {
       }
     };
     document.addEventListener('mousemove', moveDot);
-    return () => document.removeEventListener('mousemove', moveDot);
+    return () => {
+      document.removeEventListener('mousemove', moveDot);
+      // Restore the default cursor when unmounting
+      document.body.style.cursor = '';
+    };
   }, []);
 
   return (
